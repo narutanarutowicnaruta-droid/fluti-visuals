@@ -1,7 +1,0 @@
-{
-  "required": true,
-  "package": "dev.fluti.visuals.mixin",
-  "compatibilityLevel": "JAVA_21",
-  "client": ["ChatScreenMixin", "ChatHudMixin", "MouseMixin", "ClientWorldMixin", "SkyRenderingMixin"],
-  "injectors": { "defaultRequire": 1 }
-}
