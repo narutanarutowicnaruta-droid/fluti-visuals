@@ -1,6 +1,6 @@
 package dev.fluti.visuals.feature;
 
-import com.mojang.blaze3d.platform.NativeImage;
+import net.minecraft.client.texture.NativeImage;
 import dev.fluti.visuals.FlutiClient;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.resource.Resource;
