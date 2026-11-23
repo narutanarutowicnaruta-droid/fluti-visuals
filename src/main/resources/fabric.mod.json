@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "fluti_ai",
+  "version": "${version}",
+  "name": "Fluti AI Helper",
+  "description": "Personal AI block-mining companion with Blockbench entity support, key 0 control menu, and RU/UA/EN chat commands.",
+  "authors": [
+    "Fluti"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.fluti.aihelper.FlutiAiMod"
+    ],
+    "client": [
+      "com.fluti.aihelper.client.FlutiAiClient"
+    ]
+  },
+  "mixins": [
+    "fluti_ai.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
